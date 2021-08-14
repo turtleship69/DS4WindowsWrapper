@@ -1,0 +1,12 @@
+Id: DS4Windowswrapper
+Name: DS4Windows
+Author: turtleship69
+Version: 0.1
+Module: PowerShellScript.ps1
+Type: Script
+Icon: icon.png
+Links:
+    - Name: Github
+      Url: https://github.com/turtleship69/DS4WindowsWrapper
+    - Name: Playnite Forums thread
+      Url: https://playnite.link/forum/thread-780.html
