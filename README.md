@@ -18,7 +18,7 @@ Shutdown
 Open (the app)  
 Check current profile, emulated controller type, current controller name, connection type, and battery status (level and wheather or not it's charging).  
 
-Requirements:
+Requirements:  
 [DS4Windows (forked by Ryochan7)](https://github.com/Ryochan7/DS4Windows)  
 [DS4WindowsCMD](https://github.com/mika-n/DS4WindowsCmd)  
 [Playnite](playnite.link)  
