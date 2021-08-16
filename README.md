@@ -6,7 +6,7 @@ New features:
 Query: Check current profile, emulated controller type, current controller name, connection type, and battery status (level and whether or not it's charging).  
 Updater: Check for updates without checking the forums! Feel free to check it every so often (you don't need to do it more than once a day, at least once a month). When Playnite 9 comes out this will be removed ~~(I spent way too long on this)~~.  
 
-Upcoming features: 
+Upcoming features:  
 Per game config: Change the current config based on whatever game you launch, (add on a per game basis, or bulk add) 
 
 I made this extension to quickly access key DS4Windows features and and functions without needing to leave Playnite. 
