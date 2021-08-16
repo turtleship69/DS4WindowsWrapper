@@ -3,7 +3,7 @@
 I promised you v0.2. Screw that take 1.0! Expect 2.0 some time soon™.  
   
 New features:  
-Query: Check current profile, emulated controller type, current controller name, connection type, and battery status (level and wheather or not it's charging).  
+Query: Check current profile, emulated controller type, current controller name, connection type, and battery status (level and whether or not it's charging).  
 Updater: Check for updates without checking the forums! Feel free to check it every so often (you don't need to do it more than once a day, at least once a month). When Playnite 9 comes out this will be removed ~~(I spent way too long on this)~~.  
 
 Upcoming features: 
