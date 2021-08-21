@@ -39,7 +39,7 @@ function global:UpdateCheck()
         $releaseResponse = Invoke-RestMethod -Uri $releasesUrl
         $releaseResponsejson = $releaseResponse | ConvertTo-Json
         $releaseResponsejson.tag_name
-        if ($releaseResponse.tag_name -gt [version]'1.0.0')
+        if ($releaseResponse.tag_name -gt [version]'1.0.1')
         {
             $PlayniteApi.Dialogs.ShowMessage("New version " + $releaseResponse.tag_name + " available!")
             start "https://github.com/turtleship69/DS4WindowsWrapper/releases"

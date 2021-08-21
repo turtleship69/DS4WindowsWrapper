@@ -7,7 +7,7 @@ function global:Invoke-ExecuteQuery()
 
     $config = Get-Content "$CurrentExtensionDataPath\config.json"| ConvertFrom-Json
     $DS4CMDExecutablePath = ($config.DS4CMDLocation -split '=')[-1]
-    $responce = & "C:\Users\tamkh\Documents\general apps\DS4Windows\DS4WindowsCmd.exe" -command Query.1.$query
+    $responce = & $DS4CMDExecutablePath -command Query.1.$query
     $PlayniteApi.Dialogs.ShowMessage($message + $responce)
 }
 
@@ -19,12 +19,12 @@ function global:QueryProfileName()
 
 function global:QueryOutContType()
 {
-    Invoke-ExecuteQuery "OutContType" "Your current emulated controller name is: "
+    Invoke-ExecuteQuery "OutContType" "Your current emulated controller type is: "
 }
 
 function global:QueryDisplayName()
 {
-    Invoke-ExecuteQuery "DisplayName" "Your current controllers' name is is: "
+    Invoke-ExecuteQuery "DisplayName" "Your current controllers' name is: "
 }
 
 function global:QueryConnType()

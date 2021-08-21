@@ -57,7 +57,7 @@ function global:GetMainMenuItems()
 	$menuItem10.MenuSection = "DS4Windows|Query"
 	
     $menuItem11 = New-Object Playnite.SDK.Plugins.ScriptMainMenuItem
-    $menuItem11.Description = "Open DS4Windows' main app"
+    $menuItem11.Description = "Open DS4Window's main app"
     $menuItem11.FunctionName = "bootUp"
 	$menuItem11.MenuSection = "DS4Windows"
 	
@@ -72,7 +72,7 @@ function global:GetMainMenuItems()
 	$menuItem13.MenuSection = "DS4Windows"
 
     $menuItem14 = New-Object Playnite.SDK.Plugins.ScriptMainMenuItem
-    $menuItem14.Description = "Close DS4Windows' main app"
+    $menuItem14.Description = "Close DS4Window's main app"
     $menuItem14.FunctionName = "shutdownDS4"
 	$menuItem14.MenuSection = "DS4Windows"
 
